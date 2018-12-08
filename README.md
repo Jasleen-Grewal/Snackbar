@@ -53,9 +53,16 @@ Update the text in this Snackbar.<br>
 Parameters:<br>
 message	CharSequence: The new text for this BaseTransientBottomBar.<br>
 Ruturns:<br>
+Snackbar<br>
 
-https://developer.android.com/reference/android/support/design/widget/Snackbar#settext
-https://material.io/develop/android/components/snackbar/
+### setText
+Snackbar setText (int resId)<br>
+Update the text in this Snackbar.<br>
+Parameters:<br>
+resId	int: The new text for this BaseTransientBottomBar.<br>
+Returns:<br>
+Snackbar<br>
+
 
 
 
