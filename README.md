@@ -54,7 +54,8 @@ Parameters:<br>
 message	CharSequence: The new text for this BaseTransientBottomBar.<br>
 Ruturns:<br>
 
-
+https://developer.android.com/reference/android/support/design/widget/Snackbar#settext
+https://material.io/develop/android/components/snackbar/
 
 
 
