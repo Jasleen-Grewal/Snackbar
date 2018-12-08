@@ -6,7 +6,7 @@ Snackbar is considered as a UI(User Interface) element which we usually used for
 Snackbar was introduced in Android Systems in API# 22.2.0. The package library needed to import in activity to implement features of snackbar is 	android.support.design.widget.BaseTransientBottomBar<android.support.design.widget.Snackbar>.
 
 ## Major Methods:
-### make
+### 1.make
 This method is used to make a snackbar to display a message.<br>
 Below is the declaration of make function which consists of parameters and return type.<br>
 Snackbar make (View view,CharSequence text,int duration)<br>
@@ -22,7 +22,7 @@ Instead of using text CharSequence we can use a simple int type to get access to
 Snackbar make (View view, int resId, int duration), Where second parameter can be described as below:<br>
 resId	int: The resource id of the string resource to use. Can be formatted text.
 
-### setAction
+### 2.setAction
 Set the action to be displayed in this BaseTransientBottomBar.<br>
 Snackbar setAction (CharSequence text, View.OnClickListener listener)<br>
 Parameters:<br>
@@ -31,7 +31,7 @@ listener	View.OnClickListener: callback to be invoked when the action is clicked
 Returns:<br>
 Snackbar<br>
 
-### setActionTextColor
+### 3.setActionTextColor
 Snackbar setActionTextColor (ColorStateList colors)<br>
 Sets the text color of the action specified in setAction(CharSequence, View.OnClickListener).<br>
 Parameters:<br>
@@ -39,7 +39,7 @@ colors	ColorStateList<br>
 Returns:<br>
 Snackbar<br>
 
-### setActionTextColor
+### 4.setActionTextColor
 Snackbar setActionTextColor (int color)<br>
 Sets the text color of the action specified in setAction(CharSequence, View.OnClickListener).<br>
 Parameters:<br>
@@ -47,7 +47,7 @@ color	int<br>
 Returns:<br>
 Snackbar<br>
 
-### setText
+### 5.setText
 Snackbar setText (CharSequence message)<br>
 Update the text in this Snackbar.<br>
 Parameters:<br>
@@ -55,7 +55,7 @@ message	CharSequence: The new text for this BaseTransientBottomBar.<br>
 Ruturns:<br>
 Snackbar<br>
 
-### setText
+### 6.setText
 Snackbar setText (int resId)<br>
 Update the text in this Snackbar.<br>
 Parameters:<br>
