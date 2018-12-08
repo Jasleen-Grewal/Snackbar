@@ -22,6 +22,37 @@ Instead of using text CharSequence we can use a simple int type to get access to
 Snackbar make (View view, int resId, int duration), Where second parameter can be described as below:<br>
 resId	int: The resource id of the string resource to use. Can be formatted text.
 
+### setAction
+Set the action to be displayed in this BaseTransientBottomBar.<br>
+Snackbar setAction (CharSequence text, View.OnClickListener listener)<br>
+Parameters:<br>
+text	CharSequence: Text to display for the action<br>
+listener	View.OnClickListener: callback to be invoked when the action is clicked<br>
+Returns:<br>
+Snackbar<br>
+
+### setActionTextColor
+Snackbar setActionTextColor (ColorStateList colors)<br>
+Sets the text color of the action specified in setAction(CharSequence, View.OnClickListener).<br>
+Parameters:<br>
+colors	ColorStateList<br>
+Returns:<br>
+Snackbar<br>
+
+### setActionTextColor
+Snackbar setActionTextColor (int color)<br>
+Sets the text color of the action specified in setAction(CharSequence, View.OnClickListener).<br>
+Parameters:<br>
+color	int<br>
+Returns:<br>
+Snackbar<br>
+
+
+
+
+
+
+
 
 
 
