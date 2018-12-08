@@ -19,7 +19,7 @@ Snackbar<br>
 
 There is another way in which we can provide a resource id of the string instead of providing a proper text. For that we have to change the second parameter of the above function.
 Instead of using text CharSequence we can use a simple int type to get access to id of the string resourse. Below I am providing the syntax for another form:<br><br>
-Snackbar make (View view, int resId, int duration), Where second parameter can be described as below:<br>
+**Snackbar make (View view, int resId, int duration)**, Where second parameter can be described as below:<br>
 resId	int: The resource id of the string resource to use. Can be formatted text.
 
 ### 2.setAction
