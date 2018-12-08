@@ -47,6 +47,13 @@ color	int<br>
 Returns:<br>
 Snackbar<br>
 
+### setText
+Snackbar setText (CharSequence message)<br>
+Update the text in this Snackbar.<br>
+Parameters:<br>
+message	CharSequence: The new text for this BaseTransientBottomBar.<br>
+Ruturns:<br>
+
 
 
 
